@@ -1,0 +1,70 @@
+name: Social posts veröffentlichen
+
+on:
+  schedule:
+    # Mo, Mi, Fr um 07:00 UTC (08:00 Winterzeit / 09:00 Sommerzeit in DE)
+    - cron: "0 7 * * 1,3,5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run zeigt nur an, publish veröffentlicht"
+        type: choice
+        options: [dry-run, publish]
+        default: dry-run
+      only:
+        description: "Nur eine Plattform (leer = beide)"
+        type: choice
+        options: ["", instagram, linkedin]
+        default: ""
+
+concurrency:
+  group: social-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Agent ausführen
+        env:
+          # Instagram (Meta Graph API)
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+          # Öffentliche Adresse der Bilder; Standard: dieses Repo über raw.githubusercontent.com
+          MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL || format('https://raw.githubusercontent.com/{0}/{1}/media', github.repository, github.sha) }}
+          # LinkedIn (Community Management API)
+          LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
+          LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+          LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+          LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
+          # Plattform pausieren: Repo-Variable INSTAGRAM_ENABLED / LINKEDIN_ENABLED = false
+          INSTAGRAM_ENABLED: ${{ vars.INSTAGRAM_ENABLED }}
+          LINKEDIN_ENABLED: ${{ vars.LINKEDIN_ENABLED }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "dry-run" ]; then ARGS="--dry-run"; fi
+          if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only=${{ inputs.only }}"; fi
+          node src/agent.mjs $ARGS
+
+      - name: Verlauf speichern
+        if: always()
+        run: |
+          if ! git diff --quiet state/history.json; then
+            git config user.name "foorgun-social-agent"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state/history.json
+            git commit -m "Verlauf: veröffentlichte Posts aktualisiert"
+            git push
+          fi

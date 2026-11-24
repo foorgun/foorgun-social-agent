@@ -1,0 +1,19 @@
+{
+  "name": "foorgun-social-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Veröffentlicht die englischen foorgun.ai-Posts automatisch auf LinkedIn und Instagram, mit Themen-Rotation.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "extract": "node scripts/extract.mjs",
+    "render": "node scripts/render.mjs",
+    "build": "npm run extract && npm run render",
+    "plan": "node src/agent.mjs --plan",
+    "dry-run": "node src/agent.mjs --dry-run",
+    "publish": "node src/agent.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.0"
+  }
+}

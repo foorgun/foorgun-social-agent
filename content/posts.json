@@ -1,0 +1,1124 @@
+{
+  "topics": {
+    "A": "Understanding AI",
+    "B": "Finding the work",
+    "C": "Mapping processes",
+    "D": "Choosing the solution",
+    "E": "People & risk",
+    "F": "First automation",
+    "G": "Common mistakes"
+  },
+  "posts": [
+    {
+      "id": "A1",
+      "topic": "A",
+      "topicName": "Understanding AI",
+      "title": "AI doesn't replace jobs. It takes over tasks.",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#AI",
+        "#Automation",
+        "#SmallBusiness",
+        "#FutureOfWork"
+      ],
+      "cta": "Comment: Which task would you hand off first?",
+      "instagram": {
+        "caption": "AI won't take your job. It takes tasks off your plate.\n\nEvery role is a bundle of tasks. Some repeat every week. Others need judgment, trust and responsibility.\n\nThe first kind can often be automated. The second stays with people.\n\nWhich task would you hand off first in your team?",
+        "slides": [
+          "a1-01.dc.html",
+          "a1-02.dc.html",
+          "a1-03.dc.html",
+          "a1-04.dc.html",
+          "a1-05.dc.html",
+          "a1-06.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "“Which jobs will AI replace?” is the wrong question for business owners.\n\nA more useful one: Which tasks in my team repeat every week and need no judgment?\n\nAn office manager answers emails, books travel, chases invoices, orders supplies and settles disputes. Part of that follows fixed steps. The rest needs experience and responsibility.\n\nThat's why the same role can shrink in one company and grow in another. It depends on which tasks get automated and what happens with the time that frees up.\n\nMy suggestion: take one role and break it down into 10 to 15 tasks. The candidates will jump out at you.\n\nWhich task would you hand off first?",
+        "slides": [
+          "a1-01.dc.html",
+          "a1-02.dc.html",
+          "a1-03.dc.html",
+          "a1-04.dc.html",
+          "a1-05.dc.html",
+          "a1-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "A2",
+      "topic": "A",
+      "topicName": "Understanding AI",
+      "title": "Automation, AI workflow or AI agent? One question is enough.",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#AIAgents",
+        "#Automation",
+        "#AI",
+        "#ProcessAutomation"
+      ],
+      "cta": "Save it for the next tool discussion",
+      "instagram": {
+        "caption": "Automation, AI workflow, AI agent. Three terms that get mixed up constantly.\n\nAll three run without you starting each step. The difference comes down to one question: Who decides the next step?\n\nThe rules → automation\nThe rules, with AI helping in one step → AI workflow\nThe AI itself → AI agent\n\nSave this for the next time someone says “we need an agent”.",
+        "slides": [
+          "a2-01.dc.html",
+          "a2-02.dc.html",
+          "a2-03.dc.html",
+          "a2-04.dc.html",
+          "a2-05.dc.html",
+          "a2-06.dc.html",
+          "a2-07.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "“We need an AI agent.” I hear it a lot. Usually something else is meant.\n\nAutomations, AI workflows and AI agents all run without someone starting each step. What sets them apart: who decides the path.\n\n• Automation: fixed rules, same path every time. Reliable, fast, cheap, easy to check. Breaks on anything it wasn't told about.\n• AI workflow: fixed path, one step asks an AI. Handles messy text and documents, but the AI step needs a check.\n• AI agent: gets a goal and picks its own steps. Adapts to the unplanned, but is harder to predict and to check.\n\nThe difference decides what you build, what it costs and how far you can trust it.\n\nIn practice, most useful business work sits in the first two.\n\nWhich of the three are you already using?",
+        "slides": [
+          "a2-01.dc.html",
+          "a2-02.dc.html",
+          "a2-03.dc.html",
+          "a2-04.dc.html",
+          "a2-05.dc.html",
+          "a2-06.dc.html",
+          "a2-07.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "A3",
+      "topic": "A",
+      "topicName": "Understanding AI",
+      "title": "If you can write the steps down, you don't need an AI agent.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#AIAgents",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Follow for plain talk about AI in business",
+      "instagram": {
+        "caption": "A simple test before you think about AI agents:\n\nCan you write the steps down on a sheet of paper? Then an automation is enough, maybe with one AI step.\n\nAgents only make sense when the path really can't be planned in advance. And even then, with limits.\n\nFollow for more plain talk about AI in business.",
+        "slides": [
+          "a3-ig.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "One test that saves me a lot of time in conversations about AI agents:\n\nCan you write the steps down on a sheet of paper?\n\nIf yes, you don't need an agent. An automation with fixed rules will do. If the input is messy, like free-form emails or scans, add an AI step. The path still stays fixed.\n\nAn agent only makes sense when the path really can't be planned in advance. And then with limits: which tools it may use, what it may change and where a person has to approve.\n\nAgents are powerful. They're also harder to predict and to check.\n\nWhere did you last talk about an agent when a simple automation would have done the job?",
+        "slides": [
+          "a3-li.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "A4",
+      "topic": "A",
+      "topicName": "Understanding AI",
+      "title": "What AI does well, and where you still need a person",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#AI",
+        "#AIinBusiness",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Comment: Which task in your day is really just reading and sorting?",
+      "instagram": {
+        "caption": "AI is strong at reading, sorting and drafting. Decisions, relationships and responsibility still need people.\n\nSeparate the two cleanly and you automate the right things while leaving the wrong ones alone.\n\nSwipe through both lists and tell me: Which task in your day is really just reading and sorting?",
+        "slides": [
+          "a4-01.dc.html",
+          "a4-02.dc.html",
+          "a4-03.dc.html",
+          "a4-04.dc.html",
+          "a4-05.dc.html",
+          "a4-06.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "A5",
+      "topic": "A",
+      "topicName": "Understanding AI",
+      "title": "Three layers of working with AI",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "AI-curious",
+      "hashtags": [
+        "#AI",
+        "#Automation",
+        "#NoCode",
+        "#LearnAI"
+      ],
+      "cta": "Save",
+      "instagram": {
+        "caption": "“I work with AI” can mean three very different things.\n\n1 Use: you talk to an AI tool.\n2 Automate: you connect tools so a task runs without you.\n3 Build: you create a custom tool for one business.\n\nFor people who don't code, most opportunities sit in layer 2. It produces measurable time savings and needs far less than layer 3.\n\nWhich layer are you on right now? Save this post.",
+        "slides": [
+          "a5-01.dc.html",
+          "a5-02.dc.html",
+          "a5-03.dc.html",
+          "a5-04.dc.html",
+          "a5-05.dc.html",
+          "a5-06.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "A6",
+      "topic": "A",
+      "topicName": "Understanding AI",
+      "title": "6 AI terms, finally explained",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "AI-curious",
+      "hashtags": [
+        "#AI",
+        "#AITerms",
+        "#LLM",
+        "#LearnAI"
+      ],
+      "cta": "Share with someone who gets lost in AI jargon",
+      "instagram": {
+        "caption": "Deterministic, LLM, hallucination, human in the loop.\n\nYou'll find these terms in every other article about AI. None of them is hard once someone explains it with an everyday picture.\n\nSix terms, six slides. Share this with someone who regularly gets lost in AI conversations.",
+        "slides": [
+          "a6-01.dc.html",
+          "a6-02.dc.html",
+          "a6-03.dc.html",
+          "a6-04.dc.html",
+          "a6-05.dc.html",
+          "a6-06.dc.html",
+          "a6-07.dc.html",
+          "a6-08.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "B1",
+      "topic": "B",
+      "topicName": "Finding the work",
+      "title": "Is it worth automating? The five-question test",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#ProcessImprovement",
+        "#SmallBusiness",
+        "#DigitalTransformation"
+      ],
+      "cta": "Save it and run it on a real process at your next team meeting",
+      "instagram": {
+        "caption": "Not every process should be automated.\n\nFive questions, each yes or no:\n1 Does it happen at least once a week?\n2 Does it follow the same steps most of the time?\n3 Does a person copy, sort or retype information?\n4 Is the input digital, or easy to make digital?\n5 Can a mistake be fixed, or checked by a person before it matters?\n\nFour or more yes answers: worth a closer look. Three scored examples are in the carousel.\n\nSave the test for your next process.",
+        "slides": [
+          "b1-01.dc.html",
+          "b1-02.dc.html",
+          "b1-03.dc.html",
+          "b1-04.dc.html",
+          "b1-05.dc.html",
+          "b1-06.dc.html",
+          "b1-07.dc.html",
+          "b1-08.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "Before you talk about tools, test the process.\n\nI use a simple test with five yes/no questions:\n\n1. Does it happen at least once a week?\n2. Does it follow the same steps most of the time?\n3. Does a person copy, sort or retype information?\n4. Is the input digital, or easy to make digital (email, form, PDF, photo)?\n5. Can a mistake be fixed, or checked by a person before it matters?\n\nFour or five yes answers: take a closer look.\n\nThree examples:\n• Typing vendor bills into the accounting system: 5/5\n• Negotiating a supplier contract: 0/5\n• Replying to the same ten customer questions: 4/5, but keep an approval step, because wrong answers can upset customers.\n\nStart with a process that scores 4 or 5. A clear, boring win does more than an impressive project that never ships.\n\nWhich process in your business would score 5 out of 5?",
+        "slides": [
+          "b1-01.dc.html",
+          "b1-02.dc.html",
+          "b1-03.dc.html",
+          "b1-04.dc.html",
+          "b1-05.dc.html",
+          "b1-06.dc.html",
+          "b1-07.dc.html",
+          "b1-08.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "B2",
+      "topic": "B",
+      "topicName": "Finding the work",
+      "title": "6 places where businesses lose time every week",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessImprovement",
+        "#Automation",
+        "#SmallBusiness",
+        "#SME"
+      ],
+      "cta": "Intro call: Which pattern makes sense to automate for you?",
+      "instagram": {
+        "caption": "I see these six patterns in almost every small and mid-sized business, just in different clothes:\n\n01 Leads go cold\n02 Data lives in five places\n03 Documents get typed in\n04 Reporting is outdated\n05 Approvals get stuck\n06 Content eats the week\n\nFor each one, the carousel shows how to spot it and what the typical fix looks like.\n\nWhich one do you recognize? If you want to know which one makes sense to automate in your business, let's talk for 15 minutes. Link via foorgun.ai",
+        "slides": [
+          "b2-01.dc.html",
+          "b2-02.dc.html",
+          "b2-03.dc.html",
+          "b2-04.dc.html",
+          "b2-05.dc.html",
+          "b2-06.dc.html",
+          "b2-07.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "Businesses rarely lose time in one big place. It leaks away in many small ones.\n\nSix patterns that show up in almost every SME:\n\n1. Leads go cold. Inquiries wait days for a reply.\n2. Data lives in five places. Someone copies between a form, a sheet and an inbox.\n3. Documents get typed in. Invoices, applications and forms are entered by hand.\n4. Reporting is outdated. Numbers are pulled together once a week.\n5. Approvals get stuck. Requests wait on someone who forgot.\n6. Content eats the week. Posts are planned from scratch every time.\n\nWhat they have in common: a person carries information from one place to the next.\n\nThe typical fixes aren't big projects. An instant acknowledgement with a reminder, one flow with one source of truth, a report that builds itself.\n\nWhich of the six costs you the most time? If you want to sort that out for your business, let's talk for 15 minutes. Link on foorgun.ai",
+        "slides": [
+          "b2-01.dc.html",
+          "b2-02.dc.html",
+          "b2-03.dc.html",
+          "b2-04.dc.html",
+          "b2-05.dc.html",
+          "b2-06.dc.html",
+          "b2-07.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "B3",
+      "topic": "B",
+      "topicName": "Finding the work",
+      "title": "Wherever someone copies and pastes, there's a candidate.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#CopyPaste",
+        "#SmallBusiness"
+      ],
+      "cta": "Comment: Where do you still lose time to copy-paste?",
+      "instagram": {
+        "caption": "The simplest rule of thumb for spotting automation potential:\n\nLook for the places where someone copies something from one place into another. From the email into the spreadsheet. From the form into the CRM. From the chat into the calendar.\n\nThat's where information moves between people and systems, and that's where it pays to look.\n\nWhere do you still lose time to copy-paste in your business?",
+        "slides": [
+          "b3-ig.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "B4",
+      "topic": "B",
+      "topicName": "Finding the work",
+      "title": "4 questions for your team that beat any AI tool",
+      "format": "carousel",
+      "formatLabel": "Carousel (PDF)",
+      "platforms": [
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessImprovement",
+        "#Leadership",
+        "#Automation"
+      ],
+      "cta": "Comment: Which question would get the most honest answer?",
+      "instagram": null,
+      "linkedin": {
+        "caption": "The best ideas for automation rarely sit in a strategy deck. They hide in complaints.\n\nNobody says: “I need an automation.” People say: “I lose my Fridays to this.”\n\nThat's why I always start with the same four questions, asked to the people who do the work:\n\n1. What do you do every week that you wish you didn't have to?\n2. Which task would cause trouble if you were out for two weeks?\n3. Where do you copy something from one place into another?\n4. What do you spend time chasing other people for?\n\nThe answers reveal recurring tasks, knowledge that sits with one person, duplicate data entry and approvals that get stuck.\n\nListen for the complaint, not the request.\n\nWhich of the four would get the most honest answer in your team?",
+        "slides": [
+          "b4-01.dc.html",
+          "b4-02.dc.html",
+          "b4-03.dc.html",
+          "b4-04.dc.html",
+          "b4-05.dc.html",
+          "b4-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "B6",
+      "topic": "B",
+      "topicName": "Finding the work",
+      "title": "What not to automate (yet)",
+      "format": "single",
+      "formatLabel": "Single post (infographic)",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#ProcessManagement",
+        "#SmallBusiness"
+      ],
+      "cta": "Save",
+      "instagram": {
+        "caption": "Automation isn't always the answer. Four cases where you're better off waiting:\n\n01 Processes nobody can describe\n02 One-off tasks\n03 High-stakes decisions without review\n04 Broken processes\n\nThe last one matters most: automation makes a process run faster. If it's confusing, it will be confusing faster.\n\nSave this list before you start your next project.",
+        "slides": [
+          "b6-ig.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "An uncomfortable truth from my work: some requests shouldn't be automated. At least not yet.\n\nFour cases:\n\n1. Processes nobody can describe. If three people give three answers, fix the process first.\n2. One-off tasks. Setting up the automation costs more than doing it by hand.\n3. Decisions with serious legal, financial or safety impact that would run without review.\n4. Broken processes. Automation makes a process run faster. If it's confusing, it will be confusing faster.\n\nThat's not an argument against automation. It's an argument for looking first.\n\nWhich of the four do you see most often?",
+        "slides": [
+          "b6-li.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "C1",
+      "topic": "C",
+      "topicName": "Mapping processes",
+      "title": "Before you automate: the 7 fields of a process map",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessManagement",
+        "#ProcessMapping",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Save it for your next process",
+      "instagram": {
+        "caption": "Before any tool comes into play, every process needs a one-page description.\n\nSeven fields are enough:\nTrigger · Input · Steps · Decisions · Exceptions · Output · Owner & volume\n\nImportant: fill them in with the person who does the work. They know the exceptions. You don't.\n\nSave the 7 fields for your next process.",
+        "slides": [
+          "c1-01.dc.html",
+          "c1-02.dc.html",
+          "c1-03.dc.html",
+          "c1-04.dc.html",
+          "c1-05.dc.html",
+          "c1-06.dc.html",
+          "c1-07.dc.html",
+          "c1-08.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "Most failed automations fail in the description, not in the tooling.\n\nIf you can't explain a process to a new colleague in five minutes, a tool can't run it either.\n\nThat's why I describe every process with the same seven fields:\n\n1. Trigger: What starts the process?\n2. Input: What information comes in?\n3. Steps: What happens, in order?\n4. Decisions: Where does it branch?\n5. Exceptions: What goes wrong?\n6. Output: What is the result?\n7. Owner and volume: Who is responsible, and how often does it run?\n\nTake vendor bills: a bill arrives by email or on paper. Vendor, date, item codes, cost, quantity. Compare with the order. Exceptions: handwriting, missing date, a vendor not in the system.\n\nMost important: fill in the fields with the person who does the work, not for them.\n\nWhich field is missing most often in your process descriptions?",
+        "slides": [
+          "c1-01.dc.html",
+          "c1-02.dc.html",
+          "c1-03.dc.html",
+          "c1-04.dc.html",
+          "c1-05.dc.html",
+          "c1-06.dc.html",
+          "c1-07.dc.html",
+          "c1-08.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "topic": "C",
+      "topicName": "Mapping processes",
+      "title": "Write down the exceptions first.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessManagement",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Follow for more practical process tips",
+      "instagram": {
+        "caption": "The happy path is easy. Bill arrives, data goes in, done.\n\nBut what happens with a handwritten bill? A missing date? A vendor that isn't in the system?\n\nThose cases decide whether an automation survives its first week. That's why they go on the table first when you describe a process, not last.\n\nFollow for more practical examples on processes and automation.",
+        "slides": [
+          "c2-ig.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "C3",
+      "topic": "C",
+      "topicName": "Mapping processes",
+      "title": "“Invoices take a lot of time” is not a process description.",
+      "format": "single",
+      "formatLabel": "Single post (before/after)",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessMapping",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Comment: How would you describe your most time-consuming process in three sentences?",
+      "instagram": {
+        "caption": "Before: “We deal with invoices and it takes a lot of time. Maybe AI could help?”\n\nThat describes a feeling, not a process.\n\nAfter: trigger, input, volume, time per run and an approval step. You can build from that.\n\nTry it yourself: How would you describe your most time-consuming process in three sentences?",
+        "slides": [
+          "c3-ig.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "Two descriptions of the same problem:\n\nBefore: “We deal with invoices and it takes a lot of time. Maybe AI could help?”\n\nAfter: “About ten vendor bills arrive each day, half on paper, some handwritten. One person types vendor, date, item codes, cost and quantity into the system, roughly ten minutes per bill. A purchasing officer approves before an order is created.”\n\nThe first one describes a feeling. The second contains a trigger, an input, volume, time per run and an approval step.\n\nYou can build a solution from the second. From the first, at best a workshop.\n\nWhen your team talks about automation, which version do you usually start with?",
+        "slides": [
+          "c3-li.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "topic": "C",
+      "topicName": "Mapping processes",
+      "title": "What does a process really cost you?",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessImprovement",
+        "#Automation",
+        "#SmallBusiness",
+        "#Efficiency"
+      ],
+      "cta": "Intro call: run the numbers on one process together",
+      "instagram": {
+        "caption": "8 minutes. Sounds like nothing.\n\n40 times a week, 52 weeks a year: about 277 hours.\n\nThe formula: minutes per run × runs per week × 52 ÷ 60 = hours per year.\n\nTwo rules: measure real times instead of guessing. And keep it conservative, because an inflated number costs trust.\n\nWant to run the numbers on one of your processes? Let's talk for 15 minutes. Link via foorgun.ai",
+        "slides": [
+          "c4-01.dc.html",
+          "c4-02.dc.html",
+          "c4-03.dc.html",
+          "c4-04.dc.html",
+          "c4-05.dc.html",
+          "c4-06.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "Before I suggest any solution, I calculate what a process costs today.\n\nThe formula is simple:\nminutes per run × runs per week × 52 ÷ 60 = hours per year\n\nAn example: 8 minutes × 40 runs per week × 52 ÷ 60 = about 277 hours per year.\n\nTwo things matter:\n\n1. Measured times, not hopes. Time ten real runs and take the average.\n2. Keep it conservative. Inflate the number and you lose trust the moment someone checks it.\n\nIf you need a money figure, multiply by an hourly cost.\n\nDo you know the yearly hours of your most time-consuming process? If you want to go through one in your business: free 15-minute intro call. Link on foorgun.ai",
+        "slides": [
+          "c4-01.dc.html",
+          "c4-02.dc.html",
+          "c4-03.dc.html",
+          "c4-04.dc.html",
+          "c4-05.dc.html",
+          "c4-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "topic": "C",
+      "topicName": "Mapping processes",
+      "title": "Map a process on one page",
+      "format": "carousel",
+      "formatLabel": "Carousel (PDF)",
+      "platforms": [
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#BPMN",
+        "#ProcessManagement",
+        "#ProcessMapping"
+      ],
+      "cta": "Save",
+      "instagram": null,
+      "linkedin": {
+        "caption": "A picture exposes gaps that text hides.\n\nProcess people draw in a standard called BPMN. You don't need the whole standard. Six elements cover almost everything:\n\n• Trigger: what starts the process\n• Action: one step a person or a system carries out\n• Decision: a question with two or more ways out\n• End: the process is finished (there can be more than one)\n• Lane: one row per owner\n• Pool: the frame around the whole process\n\nThe carousel shows a vendor bill drawn with two lanes: system and purchasing.\n\nTwo things I look at first when reading a diagram:\n1. If a step doesn't fit into any lane, nobody owns it yet.\n2. Every arrow that crosses a lane line is a handoff. That's where processes usually stall.\n\nDo you draw your processes before you automate them?",
+        "slides": [
+          "c5-01.dc.html",
+          "c5-02.dc.html",
+          "c5-03.dc.html",
+          "c5-04.dc.html",
+          "c5-05.dc.html",
+          "c5-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "topic": "C",
+      "topicName": "Mapping processes",
+      "title": "Every handoff is a place where processes stall.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProcessImprovement",
+        "#Collaboration",
+        "#SmallBusiness"
+      ],
+      "cta": "Comment: Which handoff causes the most friction for you?",
+      "instagram": {
+        "caption": "When you draw a process, look first at the arrows that go from one owner to the next.\n\nFrom the email into the system. From the system to purchasing. From purchasing back again.\n\nThose handoffs are where processes stall most often. Someone is waiting, some information is missing, nobody knows whose turn it is.\n\nWhich handoff causes the most friction in your business?",
+        "slides": [
+          "c7-ig.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "D1",
+      "topic": "D",
+      "topicName": "Choosing the solution",
+      "title": "Problem first, tool second",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#DigitalTransformation",
+        "#Automation",
+        "#SmallBusiness",
+        "#AI"
+      ],
+      "cta": "Comment: Ever bought a tool before the problem was clear?",
+      "instagram": {
+        "caption": "“I learned this software. What can I build with it?”\nvs.\n“This process eats ten hours a week. What's the simplest way to remove that?”\n\nThe first mindset produces demos nobody uses. The second gets projects approved.\n\nEver bought a tool before the problem was clear? Tell me in the comments how it went.",
+        "slides": [
+          "d1-01.dc.html",
+          "d1-02.dc.html",
+          "d1-03.dc.html",
+          "d1-04.dc.html",
+          "d1-05.dc.html",
+          "d1-06.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "D2",
+      "topic": "D",
+      "topicName": "Choosing the solution",
+      "title": "Automation, then AI, then a platform",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#AI",
+        "#SoftwareDevelopment",
+        "#SmallBusiness"
+      ],
+      "cta": "Intro call: Which stage is enough for your process?",
+      "instagram": {
+        "caption": "Automation, then AI, then a platform. In that order.\n\nEach stage adds more to maintain, explain and fix. So you only move up when the stage below can't do the job.\n\nMany problems stop at stage 1: forms, reminders, copying data between apps.\n\nWant to know which stage is enough for one of your processes? Let's talk for 15 minutes. Link via foorgun.ai",
+        "slides": [
+          "d2-01.dc.html",
+          "d2-02.dc.html",
+          "d2-03.dc.html",
+          "d2-04.dc.html",
+          "d2-05.dc.html",
+          "d2-06.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "When businesses talk about AI, they often start with the most complex solution. I recommend the opposite order.\n\nStage 1: Automation. Fixed rules, no AI. Reliable, fast and cheap. Start here.\n\nStage 2: AI. Add an AI step where the input is messy: emails, scans, handwriting. The path stays fixed.\n\nStage 3: Platform. A custom tool with its own screen, logins and database. Only when workflows alone stop being enough.\n\nEach stage adds more to maintain, explain and fix. So you only move up when the stage below can't do the job.\n\nIn small businesses, a surprising amount stops at stage 1.\n\nWhich stage is your next process at? If you want to sort that out for your case: free 15-minute intro call. Link on foorgun.ai",
+        "slides": [
+          "d2-01.dc.html",
+          "d2-02.dc.html",
+          "d2-03.dc.html",
+          "d2-04.dc.html",
+          "d2-05.dc.html",
+          "d2-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "D3",
+      "topic": "D",
+      "topicName": "Choosing the solution",
+      "title": "The best solution is the simplest one that removes the problem.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#AI",
+        "#SmallBusiness"
+      ],
+      "cta": "Follow",
+      "instagram": {
+        "caption": "The sentence above almost all of my projects:\n\nThe best solution is the simplest one that removes the actual problem.\n\nSometimes that's a form. Sometimes a reminder. Sometimes a rule that sends an email to the right person.\n\nIt doesn't have to look impressive. It has to remove the pain.\n\nFollow for more plain talk about AI and automation.",
+        "slides": [
+          "d3-ig.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "The best solution is the simplest one that removes the actual problem.\n\nSounds obvious. In conversations about AI, it isn't.\n\nOften the table holds an agent, a custom platform, a big project. What's needed is sometimes a form, an automatic reminder or a rule that routes an inquiry to the right person.\n\nThat looks unimpressive. It's also easier to maintain, easier to explain and easier to fix.\n\nWhen did you last choose a simple solution over an impressive one?",
+        "slides": [
+          "d3-li.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "D4",
+      "topic": "D",
+      "topicName": "Choosing the solution",
+      "title": "What a workflow tool can do, and what it can't",
+      "format": "carousel",
+      "formatLabel": "Carousel (PDF)",
+      "platforms": [
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#n8n",
+        "#Make",
+        "#Automation",
+        "#Workflow"
+      ],
+      "cta": "Follow for more practical examples",
+      "instagram": null,
+      "linkedin": {
+        "caption": "A workflow tool like n8n or Make doesn't run your business. It carries out single steps, in the order you set.\n\nI like to describe it as a very fast, very literal assistant: it does exactly what the map says. Every time. And nothing else.\n\nWhat it can do:\n• Four actions on data: read, add, update, delete\n• Logic in between: if/else, filters, loops, waits, error handling\n• Start on its own: when a form arrives, on a schedule, or when a row changes\n\nWhat it can't do:\n• Know your process\n• Guess when a case isn't described\n• Judge without an AI step (and with one, it can be wrong)\n• Reach apps that aren't connected\n• Look after itself when fields change or a login expires\n\nDeciding what to build and what happens in unusual cases stays with you.\n\nWhat surprised you most about workflow tools?",
+        "slides": [
+          "d4-01.dc.html",
+          "d4-02.dc.html",
+          "d4-03.dc.html",
+          "d4-04.dc.html",
+          "d4-05.dc.html",
+          "d4-06.dc.html",
+          "d4-07.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "D5",
+      "topic": "D",
+      "topicName": "Choosing the solution",
+      "title": "n8n, Make, Claude Code, Codex: which tool for what?",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "AI-curious",
+      "hashtags": [
+        "#n8n",
+        "#Make",
+        "#ClaudeCode",
+        "#NoCode"
+      ],
+      "cta": "Save",
+      "instagram": {
+        "caption": "n8n or Make? Claude Code or Codex? A quick overview:\n\nStages 1 and 2 (workflows): n8n and Make. Both visual, both with ready-made connections to common apps.\nStage 3 (custom tools): Claude Code and Codex. Coding agents you describe what you want to in plain language.\n\nMore important than the choice: learn one properly. Your process map stays the same if you switch later.\n\nSave this for the moment you decide.",
+        "slides": [
+          "d5-01.dc.html",
+          "d5-02.dc.html",
+          "d5-03.dc.html",
+          "d5-04.dc.html",
+          "d5-05.dc.html",
+          "d5-06.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "E1",
+      "topic": "E",
+      "topicName": "People & risk",
+      "title": "Let AI prepare. Let a person approve.",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#HumanInTheLoop",
+        "#AI",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Save it for your next workflow",
+      "instagram": {
+        "caption": "The most reliable rule for AI in business: let AI prepare, let a person approve.\n\nThree places where a person almost always belongs:\n→ before money moves\n→ before anything goes to a customer\n→ whenever the AI is unsure\n\nThat doesn't slow you down. It makes sure a mistake gets caught before it does damage.\n\nSave the three places for your next workflow.",
+        "slides": [
+          "e1-01.dc.html",
+          "e1-02.dc.html",
+          "e1-03.dc.html",
+          "e1-04.dc.html",
+          "e1-05.dc.html",
+          "e1-06.dc.html",
+          "e1-07.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "“Can't the AI just do it on its own?”\n\nSometimes, yes. For critical steps, no.\n\nAI can be wrong, and it can be wrong with full confidence. That's normal and won't go away completely. So every first version I build has a human check before anything irreversible happens.\n\nThe principle: AI proposes, a person approves, the system acts.\n\nThree places where a person almost always belongs:\n• before money moves\n• before anything goes to a customer\n• whenever the AI is unsure\n\nTake vendor bills: AI reads the bill. If it matches the order, purchasing just checks and approves. If it doesn't, they correct the data first. Only then does the system create the order.\n\nRule of thumb: a person belongs wherever a mistake is expensive or hard to undo.\n\nWhere does the approval sit in your processes?",
+        "slides": [
+          "e1-01.dc.html",
+          "e1-02.dc.html",
+          "e1-03.dc.html",
+          "e1-04.dc.html",
+          "e1-05.dc.html",
+          "e1-06.dc.html",
+          "e1-07.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "E2",
+      "topic": "E",
+      "topicName": "People & risk",
+      "title": "4 questions before an automation goes live",
+      "format": "carousel",
+      "formatLabel": "Carousel (checklist)",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#DataPrivacy",
+        "#RiskManagement",
+        "#Automation",
+        "#AI"
+      ],
+      "cta": "Intro call: Is your process safe to automate?",
+      "instagram": {
+        "caption": "Before an automation goes live, answer four questions:\n\n☐ What happens if the AI is wrong?\n☐ Does it touch personal or customer data?\n☐ Who is notified when it fails?\n☐ Can it be switched off quickly?\n\nSilent failures are the worst kind. Every failure needs a name next to it.\n\nWant to know if a process in your business is safe to automate? Let's talk for 15 minutes. Link via foorgun.ai",
+        "slides": [
+          "e2-01.dc.html",
+          "e2-02.dc.html",
+          "e2-03.dc.html",
+          "e2-04.dc.html",
+          "e2-05.dc.html",
+          "e2-06.dc.html",
+          "e2-07.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "An automation runs without you. That's the point. And that's exactly why we clarify upfront what happens when it gets something wrong.\n\nMy risk check before every build has four questions:\n\n1. What happens if the AI is wrong? That decides whether a person needs to check, and how strictly.\n2. Does it touch personal or customer data? Then privacy rules apply. Ask the company which AI services it may use before sending anything.\n3. Who is notified when it fails? Silent failures are the worst kind. Every failure needs a name next to it.\n4. Can it be switched off quickly? You always need a stop button, and the owner needs to know where it is.\n\nNone of these questions is technical. All of them decide whether an automation deserves trust.\n\nWhich of the four gets skipped most often in your business? If you want to check a specific process: free 15-minute intro call. Link on foorgun.ai",
+        "slides": [
+          "e2-01.dc.html",
+          "e2-02.dc.html",
+          "e2-03.dc.html",
+          "e2-04.dc.html",
+          "e2-05.dc.html",
+          "e2-06.dc.html",
+          "e2-07.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "E3",
+      "topic": "E",
+      "topicName": "People & risk",
+      "title": "Every automation needs a stop button.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#Ownership",
+        "#SmallBusiness"
+      ],
+      "cta": "Comment: Would you know where the stop button is for your workflows?",
+      "instagram": {
+        "caption": "Every automation needs a stop button. And someone has to know where it is.\n\nA proper handover also includes:\n→ a one-page description of how the flow works\n→ a real person who gets notified when it fails\n\nWithout that, a few weeks later nobody knows who a workflow belongs to.\n\nHonest question: would you know where the stop button is for your workflows?",
+        "slides": [
+          "e3-ig.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "F1",
+      "topic": "F",
+      "topicName": "First automation",
+      "title": "Your first automation in 30 days",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "AI-curious",
+      "hashtags": [
+        "#Automation",
+        "#NoCode",
+        "#n8n",
+        "#LearnAI"
+      ],
+      "cta": "Save it and start week 1 this week",
+      "instagram": {
+        "caption": "A plan for anyone who doesn't code but wants to build their first automation:\n\nWeek 1: Get fluent with an AI assistant.\nWeek 2: Automate one thing of your own.\nWeek 3: Find a real process with someone else.\nWeek 4: Build a first version with an approval step.\n\nEach week has a clear “done when”. Do each step, don't just read it.\n\nSave the plan and start this week.",
+        "slides": [
+          "f1-01.dc.html",
+          "f1-02.dc.html",
+          "f1-03.dc.html",
+          "f1-04.dc.html",
+          "f1-05.dc.html",
+          "f1-06.dc.html",
+          "f1-07.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "F2",
+      "topic": "F",
+      "topicName": "First automation",
+      "title": "6 starter projects with a clear trigger",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#Workflow",
+        "#SmallBusiness",
+        "#AI"
+      ],
+      "cta": "Comment: Which one would you build first?",
+      "instagram": {
+        "caption": "Want to automate but don't know where to start? Six starter projects:\n\n01 Email triage\n02 Lead follow-up\n03 Meeting notes to tasks\n04 Document intake\n05 Weekly report\n06 Content repurposing\n\nEach one has a clear trigger, an obvious output and a natural place for a human check.\n\nWhich one would you build first? Drop the number in the comments.",
+        "slides": [
+          "f2-01.dc.html",
+          "f2-02.dc.html",
+          "f2-03.dc.html",
+          "f2-04.dc.html",
+          "f2-05.dc.html",
+          "f2-06.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "“We want to do something with AI, but we don't know where to start.”\n\nThen start small. Six starter projects that work in many businesses:\n\n1. Email triage: incoming emails get a topic and urgency label, draft replies wait for approval.\n2. Lead follow-up: a form entry creates a record, a reminder goes out after three days without a reply.\n3. Meeting notes to tasks: a transcript becomes action items with owners.\n4. Document intake: a PDF or photo becomes fields in a spreadsheet for review.\n5. Weekly report: a short summary from a sheet every Monday.\n6. Content repurposing: one long text becomes drafts for different channels.\n\nWhat they share: a clear trigger, an obvious output, a place where a person checks.\n\nDon't pick the most exciting one. Pick the one where you repeat yourself most.\n\nWhich one would be number one for you?",
+        "slides": [
+          "f2-01.dc.html",
+          "f2-02.dc.html",
+          "f2-03.dc.html",
+          "f2-04.dc.html",
+          "f2-05.dc.html",
+          "f2-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "F3",
+      "topic": "F",
+      "topicName": "First automation",
+      "title": "3 steps that run daily beat 15 that never ship.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#StartSmall",
+        "#SmallBusiness"
+      ],
+      "cta": "Follow",
+      "instagram": {
+        "caption": "Smaller is better. In automation too.\n\nA workflow with three steps that runs every day beats a plan with fifteen steps that never ships.\n\nThe smallest working version teaches you more about your process than any concept. You can always extend it afterwards.\n\nFollow for more practical examples on AI and automation.",
+        "slides": [
+          "f3-ig.dc.html"
+        ]
+      },
+      "linkedin": null
+    },
+    {
+      "id": "F4",
+      "topic": "F",
+      "topicName": "First automation",
+      "title": "It works in testing. That's not enough.",
+      "format": "carousel",
+      "formatLabel": "Carousel (PDF)",
+      "platforms": [
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#QualityAssurance",
+        "#Workflow"
+      ],
+      "cta": "Follow",
+      "instagram": null,
+      "linkedin": {
+        "caption": "The most common sentence right before the first trouble: “It worked in testing.”\n\nA workflow that works on your example won't necessarily work on real data. Real life brings missing information, odd formatting, handwriting, a different language.\n\nMy rule: ten real examples, at least three of them ugly.\n\nThen four check questions:\n1. Does it produce the right result on the clean cases?\n2. What does it do on the ugly cases? It should pass them to a person, not guess.\n3. Does anybody get notified when it fails?\n4. Is the time saved close to the estimate?\n\nAnd after a week in production, look again: check the results, compare the time saved, ask users what annoys them.\n\nExceptions decide whether an automation works in day-to-day business.\n\nHow do you test before something goes live?",
+        "slides": [
+          "f4-01.dc.html",
+          "f4-02.dc.html",
+          "f4-03.dc.html",
+          "f4-04.dc.html",
+          "f4-05.dc.html",
+          "f4-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "F5",
+      "topic": "F",
+      "topicName": "First automation",
+      "title": "A checklist for every automation",
+      "format": "carousel",
+      "formatLabel": "Carousel (checklist)",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Checklist",
+        "#Automation",
+        "#ProcessManagement",
+        "#SmallBusiness"
+      ],
+      "cta": "Save & share",
+      "instagram": {
+        "caption": "The checklist I use for every workflow, from the first small one to a client project.\n\nFour phases:\n1 Before you start\n2 While you build\n3 Before handover\n4 After it's live\n\nSave it and share it with someone who's working on simplifying their processes.",
+        "slides": [
+          "f5-01.dc.html",
+          "f5-02.dc.html",
+          "f5-03.dc.html",
+          "f5-04.dc.html",
+          "f5-05.dc.html",
+          "f5-06.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "A checklist I go through for every automation, from a small internal workflow to a client project.\n\nBefore you start: Does the process happen at least weekly? Is it described with the seven fields? Does the person who does the work agree with the map? Is it clear what happens when it fails, and who finds out?\n\nWhile you build: smallest version first. Approval before anything irreversible. Exceptions go to a person instead of being guessed. Ten real examples, including ugly ones. Personal data handled according to company rules.\n\nBefore handover: one-page description, a known stop button, failure alerts to a real person, scope written down and agreed.\n\nAfter it's live: check results after one week, compare the time saved with the estimate, ask users what annoys them.\n\nThe full list is in the carousel as a PDF. Which point gets missed most often in your business?",
+        "slides": [
+          "f5-01.dc.html",
+          "f5-02.dc.html",
+          "f5-03.dc.html",
+          "f5-04.dc.html",
+          "f5-05.dc.html",
+          "f5-06.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "G1",
+      "topic": "G",
+      "topicName": "Common mistakes",
+      "title": "7 mistakes that make automations fail",
+      "format": "carousel",
+      "formatLabel": "Carousel",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#Automation",
+        "#ProjectManagement",
+        "#AI",
+        "#SmallBusiness"
+      ],
+      "cta": "Intro call: set up your project right from the start",
+      "instagram": {
+        "caption": "Seven mistakes I see again and again in automation projects:\n\n1 New tools all the time, nothing goes live\n2 Only tested with clean data\n3 Team not involved\n4 AI without a check step\n5 Scope never written down\n6 Automating an unclear process\n7 Nobody owns it after handover\n\nCause and fix for each one are in the carousel.\n\nWhich one have you run into? And if you want to set up your next project right from the start, let's talk for 15 minutes about your process. Link via foorgun.ai",
+        "slides": [
+          "g1-01.dc.html",
+          "g1-02.dc.html",
+          "g1-03.dc.html",
+          "g1-04.dc.html",
+          "g1-05.dc.html",
+          "g1-06.dc.html",
+          "g1-07.dc.html",
+          "g1-08.dc.html",
+          "g1-09.dc.html"
+        ]
+      },
+      "linkedin": {
+        "caption": "Most automation projects don't fail because of the technology. They fail at seven fairly predictable points:\n\n1. New tools keep getting learned, but nothing goes live. → Pick a real process this week and build the smallest version.\n2. It worked in testing, not on real data. → Test with ten real examples, including ugly ones.\n3. The team doesn't use what was built. → Map the process with the people who do the work.\n4. The AI gets it wrong sometimes. → Add a check step. When the AI is unsure, a person decides.\n5. The project keeps growing. → Write a one-page scope, park new ideas for phase 2.\n6. A process gets automated that nobody can explain. → Fix it first, then build.\n7. Nobody owns it after handover. → Description, a named person for alerts, a known stop button.\n\nNone of these mistakes needs better AI. All of them need better preparation.\n\nWhich one have you run into? If you want to set up your next project right from the start: free 15-minute intro call. Link on foorgun.ai",
+        "slides": [
+          "g1-01.dc.html",
+          "g1-02.dc.html",
+          "g1-03.dc.html",
+          "g1-04.dc.html",
+          "g1-05.dc.html",
+          "g1-06.dc.html",
+          "g1-07.dc.html",
+          "g1-08.dc.html",
+          "g1-09.dc.html"
+        ]
+      }
+    },
+    {
+      "id": "G2",
+      "topic": "G",
+      "topicName": "Common mistakes",
+      "title": "The most important section of a project scope is “Not included”.",
+      "format": "single",
+      "formatLabel": "Single post",
+      "platforms": [
+        "instagram"
+      ],
+      "audience": "Business owners",
+      "hashtags": [
+        "#ProjectManagement",
+        "#Automation",
+        "#SmallBusiness"
+      ],
+      "cta": "Comment: Do your projects have a “Not included” section?",
+      "instagram": {
+        "caption": "Your project keeps growing? Usually one section is missing from the plan: “Not included”.\n\nIt spells out what won't be built, even if it sounds related. New ideas go on a list for phase 2 instead of bloating the current project.\n\nThat protects both sides: the client from open-ended cost, the project from never getting finished.\n\nDo your projects have a section like that?",
+        "slides": [
+          "g2-ig.dc.html"
+        ]
+      },
+      "linkedin": null
+    }
+  ]
+}
