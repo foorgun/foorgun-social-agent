@@ -14,6 +14,34 @@ export function instagramImageUrls(post, mediaBaseUrl) {
   );
 }
 
+// Verbindungstest ohne Veröffentlichung: liest das Konto und legt einen
+// Bild-Container an (wird nicht veröffentlicht und verfällt nach 24 Stunden).
+export async function checkInstagram(post, env) {
+  const base = `https://${env.IG_GRAPH_HOST || "graph.facebook.com"}/${env.META_GRAPH_VERSION || "v23.0"}`;
+  const q = (params) => new URLSearchParams({ ...params, access_token: env.IG_ACCESS_TOKEN });
+  const get = async (path, params) => {
+    const res = await fetch(`${base}/${path}?${q(params)}`);
+    const json = await res.json();
+    if (json.error) throw new Error(`${path}: ${json.error.message}`);
+    return json;
+  };
+  const account = await get(env.IG_USER_ID, { fields: "username,name" });
+  const imageUrl = instagramImageUrls(post, env.MEDIA_BASE_URL)[0];
+  const res = await fetch(`${base}/${env.IG_USER_ID}/media`, {
+    method: "POST",
+    body: q({ image_url: imageUrl, is_carousel_item: "true" }),
+  });
+  const created = await res.json();
+  if (created.error) throw new Error(`Container: ${created.error.message}`);
+  let status;
+  for (let i = 0; i < 15; i++) {
+    ({ status_code: status } = await get(created.id, { fields: "status_code" }));
+    if (status !== "IN_PROGRESS") break;
+    await new Promise((r) => setTimeout(r, 3000));
+  }
+  return { username: account.username, imageUrl, containerStatus: status };
+}
+
 export async function publishToInstagram(post, env) {
   const host = env.IG_GRAPH_HOST || "graph.facebook.com";
   const version = env.META_GRAPH_VERSION || "v23.0";

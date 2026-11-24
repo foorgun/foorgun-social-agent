@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "dry-run zeigt nur an, publish veröffentlicht"
+        description: "dry-run zeigt nur an, check testet die Verbindung, publish veröffentlicht"
         type: choice
-        options: [dry-run, publish]
+        options: [dry-run, check, publish]
         default: dry-run
       only:
         description: "Nur eine Plattform (leer = beide)"
@@ -55,6 +55,7 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "dry-run" ]; then ARGS="--dry-run"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "check" ]; then ARGS="--check"; fi
           if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only=${{ inputs.only }}"; fi
           node src/agent.mjs $ARGS
 

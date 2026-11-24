@@ -10,7 +10,7 @@
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { pickNext, simulate } from "./scheduler.mjs";
-import { publishToInstagram, instagramCaption, instagramImageUrls } from "./instagram.mjs";
+import { publishToInstagram, checkInstagram, instagramCaption, instagramImageUrls } from "./instagram.mjs";
 import { publishToLinkedIn, linkedinCommentary } from "./linkedin.mjs";
 
 const root = new URL("../", import.meta.url);
@@ -21,6 +21,7 @@ const { posts, topics } = JSON.parse(readFileSync(new URL("content/posts.json", 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const planOnly = args.includes("--plan");
+const checkOnly = args.includes("--check");
 const only = (args.find((a) => a.startsWith("--only=")) || "").split("=")[1];
 const env = process.env;
 
@@ -76,6 +77,24 @@ for (const p of enabled) {
 
   if (dryRun) {
     console.log(platform.preview(post));
+    continue;
+  }
+
+  if (checkOnly) {
+    if (p !== "instagram") {
+      console.log(`${platform.label}: Verbindungstest gibt es nur für Instagram, übersprungen.`);
+      continue;
+    }
+    try {
+      const r = await checkInstagram(post, env);
+      const ok = r.containerStatus === "FINISHED";
+      console.log(`Konto: @${r.username}\nBild: ${r.imageUrl}\nTest-Container: ${r.containerStatus} (wird nicht veröffentlicht)`);
+      console.log(ok ? "Instagram-Verbindung OK." : "Instagram konnte das Bild nicht verarbeiten.");
+      if (!ok) failed = true;
+    } catch (err) {
+      failed = true;
+      console.error(`Instagram-Verbindungstest fehlgeschlagen: ${err.message}`);
+    }
     continue;
   }
 
